@@ -4,7 +4,7 @@
 
 # list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # sum = 0
-# i = 0
+# i = 1
 # while i < len(list):
 #     sum = sum + int(list[i])
 #     i = i+2
@@ -57,12 +57,12 @@
 
 # Написать программу преобразования десятичного числа в двоичное
 
-n = int(input('Введите число: '))
-res = str('')
-while n >= 1:
-    if n%2 == 0:
-        res = res + '0'
-    else:
-        res = res + '1'
-    n = int(n/2)
-print(res[::-1])
+# n = int(input('Введите число: '))
+# res = str('')
+# while n >= 1:
+#     if n%2 == 0:
+#         res = res + '0'
+#     else:
+#         res = res + '1'
+#     n = int(n/2)
+# print(res[::-1])
